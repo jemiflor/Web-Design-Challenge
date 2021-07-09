@@ -44,21 +44,36 @@ body{
     width: 49%;
 }
 
+.visual-compare-thumbs{
+    width: 49%;
+}
+
+.figure-caption {
+    caption-side: top;
+    display: table-caption;
+    color:#4AAAA5;
+    font-weight:700;
+}
+
 @media (max-width: 767.98px) {
     .visual-thumbs {
         width: 24%;
     }
 
-    table.cities-tbl tbody tr td:nth-child(7), 
-    table.cities-tbl tbody tr td:nth-child(8),
-    table.cities-tbl tbody tr td:nth-child(9), 
-    table.cities-tbl tbody tr td:nth-child(10),
-    table.cities-tbl tbody tr td:nth-child(11),
-    table.cities-tbl thead tr th:nth-child(7), 
-    table.cities-tbl thead tr th:nth-child(8),
-    table.cities-tbl thead tr th:nth-child(9), 
-    table.cities-tbl thead tr th:nth-child(10),
-    table.cities-tbl thead tr th:nth-child(11) {
+    .visual-compare-thumbs{
+        width: 100%;
+    }
+
+table.cities-tbl tbody tr td:nth-child(7), 
+table.cities-tbl tbody tr td:nth-child(8),
+table.cities-tbl tbody tr td:nth-child(9), 
+table.cities-tbl tbody tr td:nth-child(10),
+table.cities-tbl tbody tr td:nth-child(11),
+table.cities-tbl thead tr th:nth-child(7), 
+table.cities-tbl thead tr th:nth-child(8),
+table.cities-tbl thead tr th:nth-child(9), 
+table.cities-tbl thead tr th:nth-child(10),
+table.cities-tbl thead tr th:nth-child(11) {
         display: none
     }
 }
