@@ -13,7 +13,7 @@ In building this dashboard, individual pages were created for each plot and a me
 
 ### Website Requirements
 
-For reference, see the ["Screenshots" section](#screenshots) below.
+For reference, see the ["Website Screenshots" section](#website-screenshots) below.
 
 The website must consist of 7 pages total, including:
 
@@ -42,7 +42,7 @@ The website must, at the top of every page, have a navigation menu that:
 
 Finally, the website must be deployed to GitHub pages.
 
-### Website Screenshots
+### <a id="website-screenshots"></a>Website Screenshots
 
 #### <a id="landing-page"></a>Landing page
 
