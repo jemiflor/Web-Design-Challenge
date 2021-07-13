@@ -44,6 +44,10 @@ body{
     width: 49%;
 }
 
+.visual-compare-container{
+    width: fit-content;
+}
+
 .visual-compare-thumbs{
     width: 49%;
 }
@@ -60,9 +64,9 @@ body{
         width: 24%;
     }
 
-    .visual-compare-thumbs{
+    /* .visual-compare-thumbs{
         width: 100%;
-    }
+    } */
 
 table.cities-tbl tbody tr td:nth-child(7), 
 table.cities-tbl tbody tr td:nth-child(8),
